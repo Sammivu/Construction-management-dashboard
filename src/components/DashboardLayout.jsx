@@ -22,6 +22,8 @@ const { resourceData } = useResourceData();
 
 
   return (
+    <div className='flex h-screen w-full flex-col transition-all 
+    duration-500 ease-in-out md:px-[2%] lg:px-[0%]'>
     <div className="bg-[#F7F7F8]  w-full h-[100vh] overflow-auto">
         <TopNav />
          <div className="flex-1  px-6 pt-4 pb-8 rounded-tl-3xl">
@@ -43,6 +45,7 @@ const { resourceData } = useResourceData();
         
      
         </div>
+    </div>
     </div>
   )
 }
